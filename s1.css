@@ -1,18 +1,23 @@
 .back{
 
     background-image: url("3.jpeg");
-    min-height: 600px;
-    background-position: fixed;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50% 50%;
+    min-height: 500px;
+    position: relative;
+    overflow: hidden;
     margin-top: -30px;
 
 }
 
 
+
+
 .block
 {   
-    margin-top: -150px;
+    margin-top: 0px;
     background-color:#de7600;
     min-height: 150px;
     padding: 15px 10px 20px 100px;
@@ -25,15 +30,23 @@
     }
 
 .block button{
-    background-color: #de7600;
-    color: white;
+    background-color: #f0f2f2;
+    color: black;
     
     min-width: 100px;
     margin-top:10px ;
-    border-style: groove;
+    border-style: none;
     
-    box-shadow: 1px 1px 20px 1px white;
-    border-radius: 4px;
+    border : 2px solid grey;
+    border-radius: 1px;
+
+
+}
+
+.block button:hover{
+    color: white;
+    background-color: #de7600;
+    border : 2px solid white; 
 
 
 }
@@ -53,4 +66,22 @@ margin-top: 50px;
 background-color: #f9f9f9;
 
 
+}
+
+
+@media only screen and (max-width:576px){
+    .block h1{
+        font-size: 28px;
+       
+        margin-left: -70px;
+    }
+    #solo{
+        font-size: 15px;
+        margin-left: -70px;
+    }
+    .block button{
+
+        margin-left: -70px;
+    }
+    }
 }
