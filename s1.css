@@ -1,6 +1,6 @@
 .back{
 
-    background-image: url("1.jpg");
+    background-image: url("2.jpeg");
     min-height: 600px;
     background-position: fixed;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@
 
 .block span{
     color : white;
-    margin-top:-100px;
+    padding-top:-100px;
 
     
    
