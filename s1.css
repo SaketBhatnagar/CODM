@@ -62,12 +62,26 @@
 
 .detail{
 
-margin-top: 50px;
+margin-top: 0px;
+padding-top: 60px;
 background-color: #f9f9f9;
 
 
 }
 
+.pay{
+   
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+
+.footer{
+
+background-color: #de7600;
+height: 20px;
+margin-bottom: 10px;
+}
 
 @media only screen and (max-width:576px){
     .block h1{
