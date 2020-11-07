@@ -1,19 +1,14 @@
 .back{
-
     background-image: url("images/CO.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-position: 50% 50%;
     min-height: 500px;
     position: relative;
     overflow: hidden;
     margin-top: 0px;
-    
-
 }
-
-
 
 
 .block
@@ -101,17 +96,22 @@ background: radial-gradient(circle, rgba(50,50,50,1) 50%, rgba(253,187,45,1) 100
 
 @media only screen and (max-width:576px){
     .block h1{
+       
         font-size: 28px;
        
         margin-left: -70px;
+        
     }
     #solo{
+        
         font-size: 15px;
         margin-left: -70px;
+
     }
     .block button{
 
         margin-left: -70px;
+
     }
     .back
     {
@@ -121,4 +121,4 @@ background: radial-gradient(circle, rgba(50,50,50,1) 50%, rgba(253,187,45,1) 100
 
 
     }
-}
+ 
