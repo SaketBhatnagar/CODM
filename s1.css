@@ -1,6 +1,6 @@
 .back{
 
-    background-image: url("3.jpeg");
+    background-image: url("images/CO.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,6 +9,7 @@
     position: relative;
     overflow: hidden;
     margin-top: -30px;
+    
 
 }
 
@@ -106,5 +107,11 @@ text-align: center;
 
         margin-left: -70px;
     }
+    .back
+    {
+        background-image: url("images/1.png");
+    }    
+
+
     }
 }
