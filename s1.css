@@ -110,6 +110,7 @@ text-align: center;
     .back
     {
         background-image: url("images/1.jpg");
+        background-size: cover;
     }    
 
 
