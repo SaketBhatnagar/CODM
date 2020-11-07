@@ -8,7 +8,7 @@
     min-height: 500px;
     position: relative;
     overflow: hidden;
-    margin-top: -30px;
+    margin-top: 0px;
     
 
 }
@@ -17,12 +17,13 @@
 
 
 .block
-{   
+{   color: white;
     margin-top: 0px;
     background-color:#de7600;
     min-height: 150px;
     padding: 15px 10px 20px 100px;
-    
+    background: rgb(253,187,45);
+    background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(50,50,50,1) 90%);
 }
 
 .block h1{
@@ -31,7 +32,10 @@
     }
 
 .block button{
-    background-color: #f0f2f2;
+    background: rgb(253,187,45);
+    background: linear-gradient(80deg, rgba(253,187,45,1) 94%, rgba(50,50,50,1) 96%);
+    
+    
     color: black;
     
     min-width: 100px;
@@ -91,6 +95,8 @@ margin-bottom: 10px;
 color: white;
 font-size: 10px;
 text-align: center;
+background: rgb(50,50,50);
+background: radial-gradient(circle, rgba(50,50,50,1) 50%, rgba(253,187,45,1) 100%);
 }
 
 @media only screen and (max-width:576px){
