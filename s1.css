@@ -83,7 +83,6 @@ background-color: #f9f9f9;
 }
 
 .footer{
-
 background-color: #de7600;
 height: 20px;
 margin-bottom: 10px;
@@ -94,13 +93,14 @@ background: rgb(50,50,50);
 background: radial-gradient(circle, rgba(50,50,50,1) 50%, rgba(253,187,45,1) 100%);
 }
 
-@media only screen and (max-width:576px){
+
+@media only screen and (max-width:576px)
+{
     .block h1{
        
-        font-size: 28px;
-       
+        font-size: 28px;   
         margin-left: -70px;
-        
+
     }
     #solo{
         
@@ -117,8 +117,36 @@ background: radial-gradient(circle, rgba(50,50,50,1) 50%, rgba(253,187,45,1) 100
     {
         background-image: url("images/1.jpg");
         background-size: cover;
+        
     }    
 
+}
+
+
+@media only screen and (max-width:350px)
+{
+    .block h1{
+       
+        font-size: 18px;   
+        margin-left: -70px;
 
     }
+    #solo{
+        
+        font-size: 15px;
+        margin-left: -70px;
+
+    }
+    .block button{
+
+        margin-left: -70px;
+
+    }
+    .back
+    {
+        background-image: url("images/1.jpg");
+        background-size: cover;
+        
+    }    
+}
  
