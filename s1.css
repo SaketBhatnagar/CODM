@@ -119,7 +119,7 @@ background: radial-gradient(circle, rgba(50,50,50,1) 50%, rgba(253,187,45,1) 100
 
 
 
-@media only screen and (max-width:350px){
+@media only screen and (max-width:377px){
     .block{
         margin-top: -100;
     }
