@@ -1,10 +1,16 @@
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+
+
 .back{
     background-image: url("images/CO.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    min-height: 500px;
+    min-height: 78vh;
     position: relative;
     overflow: hidden;
     margin-top: 0px;
@@ -21,14 +27,13 @@
 }
 
 .block h1{
-     font-size: 40px;  
+     font-size: calc(25px + 0.5vw);  
 }
 
 .block button{
     background: rgb(253,187,45);
     background: linear-gradient(80deg, rgba(253,187,45,1) 94%, rgba(50,50,50,1) 96%);
     color: black;   
-    min-width: 100px;
     margin-top:10px ;
     border-style: none;  
     border : 2px solid grey;
@@ -47,42 +52,53 @@
 }
 
 .detail{
-margin-top: 0px;
-padding-top: 60px;
-background-color: #f9f9f9;
+    margin-top: 0px;
+    padding-top: 60px;
+    background-color: #f9f9f9;
 }
 
 .pay{
     margin-top: 10px;
     margin-bottom: 50px;
-    font-size: 15px;
+    font-size: calc(10px + 0.5vw);
 }
 
 .join{
     margin-bottom: 50px;
-    font-size: 15px;
+    font-size: calc(10px + 0.5vw);
 }
 
 .footer{
-background-color: #de7600;
-height: 20px;
-margin-bottom: 10px;
-color: white;
-font-size: 10px;
-text-align: center;
-background: rgb(50,50,50);
-background: radial-gradient(circle, rgba(50,50,50,1) 50%, rgba(253,187,45,1) 100%);
+    background-color: #de7600;
+    height: 17px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    background: rgb(50,50,50);
+    background: radial-gradient(circle, rgba(50,50,50,1) 50%, rgba(253,187,45,1) 100%);
 }
 
+#solo 
+{
+    font-size: calc(10px + 0.5vw);
+
+}
+
+#but 
+{
+    font-size: calc(10px + 0.5vw);
+
+}
 
 @media only screen and (max-width:576px)
 {
     .block h1{   
-        font-size: 28px;   
+      
         margin-left: -70px;
     }
     #solo{
-        font-size: 15px;
+      
         margin-left: -70px;
     }
     .block button{
@@ -99,11 +115,11 @@ background: radial-gradient(circle, rgba(50,50,50,1) 50%, rgba(253,187,45,1) 100
 
 @media only screen and (max-width:768px){
     .block h1{   
-        font-size: 28px;   
+        
         margin-left: -70px;
     }
     #solo{
-        font-size: 15px;
+       
         margin-left: -70px;
     }
     .block button{
@@ -119,16 +135,16 @@ background: radial-gradient(circle, rgba(50,50,50,1) 50%, rgba(253,187,45,1) 100
 
 
 
-@media only screen and (max-width:377px){
+@media only screen and (max-width:377px ){
     .block{
         margin-top: -100;
     }
     .block h1{       
-        font-size: 25px;   
+          
         margin-left: -70px;
     }
     #solo{        
-        font-size: 15px;
+        
         margin-left: -70px;
     }
     .block button{
@@ -140,9 +156,6 @@ background: radial-gradient(circle, rgba(50,50,50,1) 50%, rgba(253,187,45,1) 100
         background-size: cover;
         
     }    
-    #but
-    {
-        font-size: 15px;
-    }
-}
+    
  
+
