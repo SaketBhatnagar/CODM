@@ -10,7 +10,6 @@
     margin-top: 0px;
 }
 
-
 .block
 {   color: white;
     margin-top: 0px;
@@ -22,62 +21,44 @@
 }
 
 .block h1{
-     font-size: 40px;
-    
-    }
+     font-size: 40px;  
+}
 
 .block button{
     background: rgb(253,187,45);
     background: linear-gradient(80deg, rgba(253,187,45,1) 94%, rgba(50,50,50,1) 96%);
-    
-    
-    color: black;
-    
+    color: black;   
     min-width: 100px;
     margin-top:10px ;
-    border-style: none;
-    
+    border-style: none;  
     border : 2px solid grey;
     border-radius: 1px;
-
-
 }
 
 .block button:hover{
     color: white;
     background-color: #de7600;
     border : 2px solid white; 
-
-
 }
 
 .block span{
     color : white;
     padding-top:-100px;
-
-    
-   
-
 }
 
 .detail{
-
 margin-top: 0px;
 padding-top: 60px;
 background-color: #f9f9f9;
-
-
 }
 
 .pay{
-   
     margin-top: 10px;
     margin-bottom: 50px;
     font-size: 15px;
 }
 
 .join{
-
     margin-bottom: 50px;
     font-size: 15px;
 }
@@ -96,57 +77,72 @@ background: radial-gradient(circle, rgba(50,50,50,1) 50%, rgba(253,187,45,1) 100
 
 @media only screen and (max-width:576px)
 {
-    .block h1{
-       
+    .block h1{   
         font-size: 28px;   
         margin-left: -70px;
-
     }
     #solo{
-        
         font-size: 15px;
         margin-left: -70px;
-
     }
     .block button{
-
         margin-left: -70px;
-
     }
     .back
     {
-        background-image: url("images/1.jpg");
+        background-image: url("images/iphone.jpg");
         background-size: cover;
-        
+    }    
+}
+
+
+
+@media only screen and (max-width:768px){
+    .block h1{   
+        font-size: 28px;   
+        margin-left: -70px;
+    }
+    #solo{
+        font-size: 15px;
+        margin-left: -70px;
+    }
+    .block button{
+        margin-left: -70px;
+    }
+    .back
+    {
+        background-size: 50% 50%;
+        background-size: cover;
     }    
 
 }
 
 
-@media only screen and (max-width:350px)
-{
-    .block h1{
-       
-        font-size: 18px;   
-        margin-left: -70px;
 
+@media only screen and (max-width:350px){
+    .block{
+        margin-top: -100;
     }
-    #solo{
-        
+    .block h1{       
+        font-size: 25px;   
+        margin-left: -70px;
+    }
+    #solo{        
         font-size: 15px;
         margin-left: -70px;
-
     }
     .block button{
-
         margin-left: -70px;
-
     }
     .back
-    {
-        background-image: url("images/1.jpg");
+    {  
+        background-image: url("images/iphone.jpg");
         background-size: cover;
         
     }    
+    #but
+    {
+        font-size: 15px;
+    }
 }
  
