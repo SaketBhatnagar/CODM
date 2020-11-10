@@ -20,10 +20,12 @@
 {   color: white;
     margin-top: 0px;
     background-color:#de7600;
-    min-height: 150px;
+    min-height: 10vh;
     padding: 15px 10px 20px 100px;
     background: rgb(253,187,45);
     background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(50,50,50,1) 90%);
+    border-radius: 2px 3px 20px 20px;
+
 }
 
 .block h1{
@@ -44,6 +46,7 @@
     color: white;
     background-color: #de7600;
     border : 2px solid white; 
+    border-radius: 2px 3px 10px 10px;
 }
 
 .block span{
@@ -77,6 +80,9 @@
     text-align: center;
     background: rgb(50,50,50);
     background: radial-gradient(circle, rgba(50,50,50,1) 50%, rgba(253,187,45,1) 100%);
+    border-radius: 80px 80px 2px 3px;
+
+
 }
 
 #solo 
@@ -115,11 +121,11 @@
 
 @media only screen and (max-width:768px){
     .block h1{   
-        
+      
         margin-left: -70px;
     }
     #solo{
-       
+      
         margin-left: -70px;
     }
     .block button{
@@ -136,15 +142,12 @@
 
 
 @media only screen and (max-width:377px ){
-    .block{
-        margin-top: -100;
-    }
-    .block h1{       
-          
+    .block h1{   
+      
         margin-left: -70px;
     }
-    #solo{        
-        
+    #solo{
+      
         margin-left: -70px;
     }
     .block button{
@@ -156,6 +159,8 @@
         background-size: cover;
         
     }    
-    
+}
+
+
  
 
